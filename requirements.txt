@@ -22,3 +22,4 @@ html5lib
 lxml
 requests[security] == 2.9.1 
 jcamp==1.2.1
+torch
