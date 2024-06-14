@@ -27,3 +27,4 @@ requests[security] == 2.9.1
 jcamp==1.2.2
 #jcamp==1.1 
 torch
+urllib3
