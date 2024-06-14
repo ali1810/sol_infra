@@ -1,5 +1,4 @@
 import streamlit as st
-from infrared.parser import process_input
 import os
 from PIL import Image
 from stmol import showmol
@@ -8,6 +7,9 @@ from rdkit import Chem
 import pubchempy as pcp
 from rdkit.Chem import AllChem
 from urllib.request import urlopen
+import sys
+sys.path.append('infrared/parser.py')  
+from infrared.parser import process_input
 
 
 def calculate_aromatic_proportion(smiles):
